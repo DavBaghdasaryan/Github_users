@@ -1,0 +1,62 @@
+.users_cont{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.user_edit_panel{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+.user_modal{
+    padding: 30px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: auto;
+}
+.user_modal_item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.user_modal_item:first-child{
+    margin: 0;
+}
+.user_modal_item h3{
+    color: black;
+    font-family: sans-serif;
+    margin-right: 20px;
+}
+.user_modal_item input{
+    text-transform: capitalize;
+    padding: 5px;
+    color: black;
+}
+.user_modal_but{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.user_modal_but button{
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: sans-serif;
+    padding: 5px 25px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}

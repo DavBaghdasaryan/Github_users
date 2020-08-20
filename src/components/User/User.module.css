@@ -1,0 +1,51 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 10px;
+    width: calc(33% - 20px);
+    background-color: lightslategrey;
+    border-radius: 6px;
+    overflow: hidden;
+}
+.user_img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.user_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+}
+.user_details_username {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.user_details_type {
+    margin-top: 5px;
+}
+.user_details_controls {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.controls_link, .controls_edit, .controls_delete {
+    border: none;
+    background: transparent;
+    color: mediumblue;
+    margin-top: 10px;
+}
+.controls_delete {
+    color: red !important;
+}
+.controls_edit:hover, .controls_delete:hover {
+    cursor: pointer;
+}
